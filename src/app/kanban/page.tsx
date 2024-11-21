@@ -24,6 +24,7 @@ type BoardType = {
 };
 
 type FetchResponseType = {
+  data: any;
   body: BoardType[];
 };
 
